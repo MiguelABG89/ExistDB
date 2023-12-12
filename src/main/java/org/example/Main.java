@@ -18,7 +18,7 @@ public class Main {
             opcion = libs.Leer.pedirCadena("Introduce una opción");
             switch (opcion) {
                 case "0" -> {salir = true;}
-                case "1" -> {Insertar();}
+                case "1" -> {}
                 default -> {System.out.println("Opción incorrecta");}
             }
         }while (!salir);
